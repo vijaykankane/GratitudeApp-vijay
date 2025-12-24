@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: stats-service
-          image: prashantdey/merndemoapp:statsservicev1.0
+          image: 975050024946.dkr.ecr.eu-central-1.amazonaws.com/capstone-g3-gratitude/stats-service:v1.0.0-vijay
           ports:
             - containerPort: 50053
           env:

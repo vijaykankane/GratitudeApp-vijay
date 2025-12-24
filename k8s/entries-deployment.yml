@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: entries
-          image: prashantdey/merndemoapp:entriesv1.0
+          image: 975050024946.dkr.ecr.eu-central-1.amazonaws.com/capstone-g3-gratitude/entries:v1.0.0-vijay
           ports:
             - containerPort: 50051
           env:

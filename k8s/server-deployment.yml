@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: prashantdey/merndemoapp:serverv1.0
+          image: 975050024946.dkr.ecr.eu-central-1.amazonaws.com/capstone-g3-gratitude/server:v1.0.0-vijay
           ports:
             - containerPort: 5001
           env:

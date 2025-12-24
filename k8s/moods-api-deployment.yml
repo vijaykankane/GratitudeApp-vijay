@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: moods-api
-          image: prashantdey/merndemoapp:moodsapiv1.0
+          image: 975050024946.dkr.ecr.eu-central-1.amazonaws.com/capstone-g3-gratitude/moods-api:v1.0.0-vijay
           ports:
             - containerPort: 5002
           env:
