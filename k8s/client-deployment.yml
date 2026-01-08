@@ -16,5 +16,6 @@ spec:
       containers:
         - name: client
           image: 975050024946.dkr.ecr.eu-central-1.amazonaws.com/capstone-g3-gratitude/client:v1.0.0-vijay
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
